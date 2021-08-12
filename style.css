@@ -1,0 +1,56 @@
+body{
+    font-family: 'Lobster Two', cursive; 
+    color: white;
+    background-size: cover;
+    padding: 5px;
+}
+::selection{
+    background-color:deeppink;
+    color: white;
+}
+.home{
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+    background-color: pink;
+}
+.menu{
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    display: inline;
+}
+.menu:hover {
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.ankers{
+    transition: transform .2s;
+    height: 300px;
+    width: 300px;
+}
+.ankers:hover{  
+    transform: scale(0.9);
+}
+#badminton{
+    height: 300px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#aaru{    
+    width:25%;
+    border-radius: 700px;
+}
